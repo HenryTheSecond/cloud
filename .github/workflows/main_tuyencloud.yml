@@ -49,5 +49,5 @@ jobs:
         with:
           app-name: 'tuyencloud'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A5D87F42A5804B32B95E5652A167BD86 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_8330DF0BED1D42F5AA502994CE48764D }}
           package: '*.jar'
